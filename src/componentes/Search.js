@@ -1,5 +1,6 @@
 import React from 'react'
-
+import lupaBlue from "../lupa.png"
+import lupaWhite from "../search_white.png"
 
 function Search() {
   return (
@@ -8,7 +9,8 @@ function Search() {
 
       </input>
       <div id="search">
-        <img src="./images/lupa.png" alt="" />
+      <img src={lupaBlue} alt="" id="search_pag_home" />
+      <img src={lupaWhite} alt="" id="search_white" />
       </div>
     </div>
   )

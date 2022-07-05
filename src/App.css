@@ -77,6 +77,10 @@ main {
   cursor: pointer;
 }
 
+#search_white {
+  display: none;
+}
+
 .img_home {
   position: absolute;
   top: 0;
@@ -115,7 +119,7 @@ main {
   line-height: 38px;
   display: flex;
   color: #082952;
-  margin: 23px 0px 0px 70px;
+  margin: 23px 0px 210px 70px;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -1408,12 +1412,7 @@ header {
 }
 
 /*HOME DINÂMICA   */
-#ImgHome {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 0;
-}
+
 
 /* CSS GLOBAL LOGIN CADASTRO CLIENTE E COMERCIANTE */
 
@@ -1633,7 +1632,7 @@ section #cadastro ul #hr span {
     margin-left: 59px;
   }
   #search {
-    left: 405px;
+    left: 417px;
   }
 }
 @media only screen and (max-width: 1220px) {

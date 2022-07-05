@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "../../src/LOGOoficial 1.png";
 
 export function Footer() {
   return (
@@ -50,7 +51,7 @@ export function Footer() {
             </li>
           </ul>
           <img src="./images/detalhe_footer.png" id="detalhe_footer_img" />
-          <img src="./images/LOGOoficial 1.png" id="logo_footer_img" />
+          <img src={Logo} id="logo_footer_img" />
         </div>
       </div>
     </footer>

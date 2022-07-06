@@ -9,6 +9,9 @@ export const Container = styled.div`
   #nav-2 a {
     color: #ffae10;
   }
+  footer {
+    background-color: #082952;
+  }
   .quem-somos {
     height: auto;
     display: flex;

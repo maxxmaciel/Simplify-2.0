@@ -1,5 +1,6 @@
 import { Container } from "./quem-somos-styled.js";
 import { Header } from "../componentes/header";
+import { Footer } from "../componentes/footer.js";
 
 export function QuemSomos() {
   return (
@@ -53,6 +54,8 @@ export function QuemSomos() {
           </div>
         </div>
       </section>
+      <Footer />
     </Container>
+
   );
 }

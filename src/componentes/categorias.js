@@ -11,7 +11,7 @@ export function Categorias() {
             <Li_categorias
               img_categoria="images/categoria_1.png"
               texto_categoria="Hortifruti"
-            
+              style="background: #fff!important;"
               alt=""
             />
             <Li_categorias

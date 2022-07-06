@@ -3,6 +3,27 @@ import styled from "styled-components";
 export const Container = styled.div`
   background-color: #f4fdff;
   height: auto;
+  #menu_esquerdo {
+    background-color: #f4fdff;
+    border: 3px solid #082952;
+  }
+  .menu_section_3 {
+    border-top: 3px solid #082952;
+  }
+  .menu_section_1 .icon-one {
+    border: 1px solid #082952; 
+  }
+  .icon-one {
+    background-color: #082952;
+  }
+  .hamburger,
+  .hamburger-one:before,
+  .hamburger-one:after {
+    background-color: #f4fdff;
+  }
+  .menu_section_1 {
+    border-bottom: 3px solid #082952;
+  }
   #nav-1 li a {
     color: #082952;
   }

@@ -18,9 +18,9 @@ export function HomeDinamica() {
   return (
     <Container cor={filterMercado}>
       <div className="img_home">
-      <img src={ImagemHome} id="ImgHome" />
+        <img src={ImagemHome} id="ImgHome" />
       </div>
-     
+
       <Header />
 
       <div className="container">
@@ -52,13 +52,16 @@ export function HomeDinamica() {
 
 // STYLED COMPONENTS
 export const Container = styled.div`
+  footer {
+    background: #082952;
+  }
   background: #f4fdff;
   #search {
     background: #26768d;
   }
- 
-  #search_pag_home{
-    display:none;
+
+  #search_pag_home {
+    display: none;
   }
   #search_white {
     display: flex;

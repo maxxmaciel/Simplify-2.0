@@ -1,6 +1,6 @@
 import React from 'react'
-import lupaBlue from "../lupa.png"
-import lupaWhite from "../search_white.png"
+import lupaBlue from "../imagens/lupa.png"
+import lupaWhite from "../imagens/search_white.png"
 
 function Search() {
   return (

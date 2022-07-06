@@ -4,8 +4,9 @@ import Search from "../componentes/Search";
 import Produtos from "../../src/json/produtos.json";
 import { useParams } from "react-router-dom";
 import { Categorias } from "../componentes/categorias.js";
-import ImagemHome from "../../src/img_home_dinamica.png";
+import ImagemHome from "../../src/imagens/img_home_dinamica.png";
 import SlideCaixas from "../componentes/SlideCaixas.js";
+import { Footer } from "../componentes/footer.js";
 
 export function HomeDinamica() {
   const { idMercado } = useParams();
@@ -44,6 +45,7 @@ export function HomeDinamica() {
       </div>
 
       <Categorias />
+      <Footer />
     </Container>
   );
 }

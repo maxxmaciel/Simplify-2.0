@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Logo from "../../src/LOGOoficial 1.png";
-import Perfil from "../../src/image.png";
-import Selo from "../../src/selo_azul.png";
+import Logo from "../../src/imagens/LOGOoficial 1.png";
+import Perfil from "../../src/imagens/image.png";
+import Selo from "../../src/imagens/selo_azul.png";
 
 export function Header() {
   const [NavBarButton, setNavBarButton] = useState(false);

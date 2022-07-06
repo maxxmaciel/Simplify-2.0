@@ -1,5 +1,10 @@
 import { Link } from "react-router-dom";
-import Logo from "../../src/LOGOoficial 1.png";
+import Logo from "../../src/imagens/LOGOoficial 1.png";
+import insta from "../../src/imagens/instagram 5.png";
+import face from "../../src/imagens/facebook 5.png";
+import twitter from "../../src/imagens/twitter 5.png";
+import wpp from "../../src/imagens/whatsapp 5.png";
+import detalheFooter from "../../src/imagens/detalhe_footer.png";
 
 export function Footer() {
   return (
@@ -38,19 +43,19 @@ export function Footer() {
           <p id="footer_row1">@simplify</p>
           <ul id="footer_row2">
             <li>
-              <img src="./images/instagram 5.png" />
+              <img src={insta} />
             </li>
             <li>
-              <img src="./images/facebook 5.png" />
+              <img src={face} />
             </li>
             <li>
-              <img src="./images/twitter 5.png" />
+              <img src={twitter} />
             </li>
             <li>
-              <img src="./images/whatsapp 5.png" />
+              <img src={wpp} />
             </li>
           </ul>
-          <img src="./images/detalhe_footer.png" id="detalhe_footer_img" />
+          <img src={detalheFooter} id="detalhe_footer_img" />
           <img src={Logo} id="logo_footer_img" />
         </div>
       </div>

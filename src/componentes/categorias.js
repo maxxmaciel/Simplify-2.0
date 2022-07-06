@@ -1,8 +1,6 @@
 import { Li_categorias } from "./categorias2.js";
 import { Produto } from "./produto.js";
 
-
-
 export function Categorias() {
   return (
     <div>
@@ -13,6 +11,7 @@ export function Categorias() {
             <Li_categorias
               img_categoria="images/categoria_1.png"
               texto_categoria="Hortifruti"
+            
               alt=""
             />
             <Li_categorias

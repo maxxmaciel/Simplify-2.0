@@ -3,7 +3,7 @@ import { Header } from "../componentes/header.js";
 import { Container } from "./CadastroCliente_Styled.js";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Footer } from "../componentes/footer.js";
+
 
 export function CadastroCliente() {
   var [button, SetButton] = useState(true);
@@ -166,6 +166,7 @@ export function CadastroCliente() {
           )}
         </div>
       </section>
+    
     </Container>
   );
 }
